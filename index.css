@@ -1,0 +1,384 @@
+*{
+
+    margin: 0;
+    font-size: 20;
+}
+.navbar{
+    height: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(180, 50%, 98%);
+    font-size: 40px;
+    padding:0;
+    padding-left: 0;
+    padding-top: 0;
+    align-items: center;
+}
+.navbar:hover{
+    font-style: normal;
+}
+.panal{
+    height:30px;
+    display: flex;
+    align-items:end;
+    justify-content:space-evenly;
+    font-size: 15px;
+    bottom: 5px;
+    position: relative;
+}
+.panal p{
+    color:black;
+}
+.news p{
+    display: inline;
+    margin-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.news p:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(34, 78%, 91%);
+}
+.news{
+    width: 90%;
+}
+.search{
+    width: 10%;
+    font-size: 20;
+}
+.search:hover{
+    margin: 5px;
+}
+.heropro{
+    display: flex;
+    margin:10;
+}
+.Hero{
+    margin: 10px ;
+    background-image: url(image1.png);
+    border-radius: 2%;
+    height: 200px;
+    width:200px;
+    color: burlywood;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
+
+}
+
+.txt1 a{
+    background-color: hwb(0 100% 0%);
+    color: hsl(60, 25%, 3%);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.txt1 a:hover{
+    text-decoration: dashed;
+}
+.news2{
+    margin: 15px;
+    background-image: url(image2.avif);
+    height:360px;
+    width: 800px;
+    background-size: cover;
+    border-radius: 2%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5;
+    margin-left: 5;
+
+}
+.news5{
+    margin: 15px;
+    background-image: url(images5.jpeg);
+    height:360px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 5%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5;
+    margin-left: 5;
+}
+.txt5 a{
+    height: 70px;
+    background-color: rgb(238, 227, 227);
+    color: hsl(0, 0%, 3%);
+    font-size: 15;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+    
+}
+.txt5{
+    margin-bottom: 5;
+    margin-left: 5;
+}
+.txt5 a:hover{
+    text-decoration: dashed;
+}
+.section2{
+    display:flex;
+}
+.txt2{
+    margin-bottom: 5;
+    margin-left: 5;
+}
+.txt2 a{
+    height: 35px;
+    background-color: hwb(0 100% 0%);
+    color: hsl(60, 25%, 3%);
+    font-size: 15;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+    
+}
+.txt2 a:hover{
+    text-decoration: dashed;
+}
+.news3{
+    background-image: url(imahe3.avif);
+    width: 500px;
+    height: 210px;
+    border-radius: 2%;
+    background-size: cover;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+.txt3 a{
+    background-color: hwb(0 100% 0%);
+    color: hsl(60, 25%, 3%);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.txt3 a:hover{
+    text-decoration: dashed;
+}
+.news4{
+    background-image: url(image4.jpg);
+    width: 280px;
+    height: 200px;
+    border-radius: 2%;
+    background-size: cover;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+.txt4 a{
+    background-color: hwb(0 100% 0%);
+    color: hsl(60, 25%, 3%);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+
+}
+.txt4 :hover{
+    text-decoration:dotted;
+}
+.bw{
+    background-color: black;
+    color: aliceblue;
+    height:30px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+    
+    
+}
+.break{
+    display: inline-flex;
+    width:82%;
+}
+.breaknews{
+    margin:10px;
+    width:20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    font-weight: bold;
+}
+.highlight{
+    margin:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+.h{
+    right: 10px;
+    position: relative;
+    font-weight: bold;
+    font-size: 10px;
+}
+/*Highlights*/
+.keys{
+    margin:10px;
+    font-family: cursive;
+    font-size: 17px;
+
+}
+.keys u{
+    color: rgb(53, 47, 47);
+    align-items: center;
+    font-size: 30px;
+    text-underline-position: below;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.keys i{
+    font-size: 20px;
+}
+.key1{
+    height: 100px;
+    display:flex;
+    align-items: center;
+}
+.H1{
+    background-image: url(sunil.webp);
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    margin: 1px;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+.t1 a{
+    color: rgb(31, 2, 77);
+}
+.t1 a:hover{
+    background-color: hwb(0 95% 2%);
+    font-style: italic;
+}
+.key{
+    
+    font-family: cursive;
+    font-size: 17px;
+    
+}
+.key2{
+    height: 100px;
+    width:600px;
+    display:flex;
+    align-items: center;
+}
+.H2{
+    background-image: url(image6.avif);
+    height: 90px;
+    width: 200px;
+    background-size: cover;
+    margin: 1px;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+.t2 a{
+    color: rgb(31, 2, 77);
+}
+.t2 a:hover{
+    background-color: hwb(0 95% 2%);
+    font-style: italic;
+}
+.key3{
+    height: 100px;
+    width:600px;
+    display:flex;
+    align-items: center;
+    margin: 10px;
+}
+.H3{
+    background-image: url(image7.jpg);
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+    margin: 1px;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+.t3 a{
+    color: rgb(31, 2, 77);
+}
+.t3 a:hover{
+    background-color: hwb(0 95% 2%);
+    font-style: italic;
+}
+.key4{
+    height: 100px;
+    width:600px;
+    display:flex;
+    align-items: center;
+    margin: 15px;
+}
+.H4{
+    background-image: url(image8.webp);
+    height: 100px;
+    width: 300px;
+    background-size: cover;
+    margin: 1px;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+.t4 a{
+    color: rgb(31, 2, 77);
+}
+.t4 a:hover{
+    background-color: hwb(0 95% 2%);
+    font-style: italic;
+}
+@media screen and (max-width: 768px) {
+    
+    .navbar {
+        font-size: 20px;
+    }
+    .heropro {
+        height: auto;
+        width: auto;
+        flex-direction: column; 
+        align-items: center;
+        
+    }
+    .break,.breaknews,.bw,.h{
+        height: 30px;
+        font-size: 10px;
+    }
+    .Hero {
+        margin-bottom: 10px;
+    }
+    .news2,
+    .news5,
+    .news3,
+    .news4 {
+        height: auto;
+        width: 100%; /* Make news items full width */
+    }
+    .news1,.news5{
+        height: auto;
+        width: 100%; /* Make news items full width */
+        
+    }
+    .txt1,.txt2,.txt3,.txt4,.txt5,.t1,.t2,.t3,.t4{
+        font-size: 15px;
+    }
+    .txt1,.txt2,.txt3,.txt4,.txt5,.t1,.t2,.t3,.t4 a{
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
