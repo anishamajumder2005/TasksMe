@@ -188,8 +188,8 @@
     text-decoration:dotted;
 }
 .bw{
-    background-color: black;
-    color: aliceblue;
+    background-color: aliceblue;
+    color: black;
     height:30px;
     display: flex;
     align-items:center;
